@@ -1,8 +1,15 @@
 fileFormatVersion: 2
 guid: 431473a76bcfd484482041d4650b51fd
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - OneHandedWeaponBody: {fileID: 21300000, guid: a485e0e995dc543019de001bc7669f1c,
+      type: 3}
+  - TwoHandedWeaponBody: {instanceID: 0}
+  - DualWieldWeaponBody: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
