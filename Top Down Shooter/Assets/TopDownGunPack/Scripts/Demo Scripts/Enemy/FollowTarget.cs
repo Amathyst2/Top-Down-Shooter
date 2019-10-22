@@ -8,14 +8,14 @@ namespace TDGP.Demo
 /// </summary>
 	public class FollowTarget : MonoBehaviour
 	{
-		public Transform Target;
+		public Transform Player;
 	
 		private float zDistance = 5f;
 
 		// Update is called once per frame
 		void Update ()
 		{
-			transform.position = new Vector3 (Target.position.x, Target.position.y, Target.position.z - zDistance);
+			transform.position = new Vector3 (Player.position.x, Player.position.y, Player.position.z - zDistance);
 		}
 	}
 }

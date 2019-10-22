@@ -7,24 +7,24 @@ public class Enemy : MonoBehaviour
     public float speed;
     private Transform playerPos;
 
-    private void Start()
+    void Start()
     {
         playerPos = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
-     void Update()
+    void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, playerPos.position, speed * Time.deltaTime);
     }
 
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
   
