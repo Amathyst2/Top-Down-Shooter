@@ -142,7 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxTimeAlive: 2
   DestroyOnEnemyImpact: 1
-  Damage: 5
+  Damage: 2
   DamageAnimation: {fileID: 187270, guid: 61814de1db9564ff69c67aa9badafcc2, type: 3}
 --- !u!1 &163210
 GameObject:

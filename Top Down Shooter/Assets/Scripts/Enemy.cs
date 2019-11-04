@@ -33,6 +33,7 @@ public class Enemy : MonoBehaviour
         if (other.CompareTag("Projectile"))
             
         {
+            Destroy(other.gameObject);
             Destroy(gameObject);
         }
     

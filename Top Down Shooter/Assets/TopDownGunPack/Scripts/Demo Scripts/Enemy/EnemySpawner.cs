@@ -11,7 +11,7 @@ namespace TDGP.Demo
 		/// <summary>
 		/// The enemy prefab.
 		/// </summary>
-		public GameObject Enemy;
+		public GameObject enemy;
 
 		/// <summary>
 		/// Time between spawns.
@@ -51,7 +51,7 @@ namespace TDGP.Demo
 			
 			currentEnemyCount++;
 			var position = new Vector2 (Random.Range (1, 11), Random.Range (4, 11));
-			Instantiate (Enemy, position, Quaternion.identity);
+			Instantiate (enemy, position, Quaternion.identity);
 		}
 	}
 }
