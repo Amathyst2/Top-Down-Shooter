@@ -396,6 +396,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11420024, guid: 921280ab7a5b64862bb0051e1d7a69c1, type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 1282952161051419319, guid: bc83bff390ab294418f208be24a45d1d,
+        type: 3}
     - target: {fileID: 11420028, guid: 921280ab7a5b64862bb0051e1d7a69c1, type: 3}
       propertyPath: Player
       value: 
@@ -517,7 +522,7 @@ GameObject:
   - component: {fileID: 2116465742}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

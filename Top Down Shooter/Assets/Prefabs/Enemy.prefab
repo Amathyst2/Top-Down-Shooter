@@ -17,8 +17,9 @@ GameObject:
   - component: {fileID: 2199598507708166725}
   - component: {fileID: 857936417728103142}
   - component: {fileID: 857936417728103143}
+  - component: {fileID: 4789272667367286075}
   m_Layer: 0
-  m_Name: Enemy 1
+  m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -299,3 +300,15 @@ MonoBehaviour:
   AudioClips: []
   VolumeScale: 1
   InversePlayChance: 0
+--- !u!114 &4789272667367286075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282952161051419319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace27c366a48549a0adb5f3e3156cbd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
