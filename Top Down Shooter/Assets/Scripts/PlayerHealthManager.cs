@@ -26,4 +26,9 @@ public class PlayerHealthManager : MonoBehaviour
     {
         currentHealth -= damageAmount;
     }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        HealthBarScript.health -= 1f;
+    }
 }

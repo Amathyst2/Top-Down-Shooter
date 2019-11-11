@@ -20,4 +20,6 @@ public class HealthBarScript : MonoBehaviour
     {
         healthBar.fillAmount = health / maxHealth;
     }
+
+    
 }

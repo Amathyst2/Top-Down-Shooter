@@ -13,5 +13,8 @@ public class HurtPlayer : MonoBehaviour
         {
             col.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(damageToGive);
         }
+
+        
+
     }
 }
