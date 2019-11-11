@@ -6,11 +6,12 @@ public class HurtPlayer : MonoBehaviour
 {
     public int damageToGive;
 
-    public void OnTriggerEnter(Collider other)
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if (other.gameObject.tag == "Player")
+        
+        if (col.gameObject.tag == "Player")
         {
-            other.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(damageToGive);
+            col.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(damageToGive);
         }
     }
 }

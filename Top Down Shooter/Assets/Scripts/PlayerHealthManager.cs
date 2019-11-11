@@ -7,6 +7,7 @@ public class PlayerHealthManager : MonoBehaviour
    
     public int startingHealth;
     public int currentHealth;
+    public GameObject Player;
    
     void Start()
     {
@@ -17,7 +18,7 @@ public class PlayerHealthManager : MonoBehaviour
     {
         if (currentHealth <= 0)
         {
-            gameObject.SetActive(false);
+            GameObject.FindGameObjectWithTag("Player").SetActive(false);
         }
 
     }
