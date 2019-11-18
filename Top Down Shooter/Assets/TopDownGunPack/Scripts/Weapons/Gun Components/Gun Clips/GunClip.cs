@@ -18,7 +18,7 @@ namespace TDGP
 		/// <summary>
 		/// If true, this weapon can be reloaded.
 		/// </summary>
-		public bool SupportReload = false;
+		public bool SupportReload = true;
 
 		/// <summary>
 		/// The time it takes to reload.
