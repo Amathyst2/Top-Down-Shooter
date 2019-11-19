@@ -388,6 +388,11 @@ MonoBehaviour:
   KeyMapping: 0
   ShootType: 1
   DelayBetweenProjectiles: 0.4
+  ammoBar: {fileID: 0}
+  reloadText: {fileID: 0}
+  AmmoInGun: 0
+  MaxAmmo: 0
+  TotalAmmo: 0
 --- !u!1 &144664
 GameObject:
   m_ObjectHideFlags: 0

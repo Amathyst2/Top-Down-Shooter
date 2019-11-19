@@ -46,6 +46,12 @@ MonoBehaviour:
   KeyMapping: 0
   ShootType: 1
   DelayBetweenProjectiles: 0.05
+  ammoBar: {fileID: 2656392713665591568, guid: 32f291c728b93994592c48d3c30585b8, type: 3}
+  reloadText: {fileID: 5334251148602428101, guid: 2855c072e55c30f45b217c8b990d3b62,
+    type: 3}
+  AmmoInGun: 500
+  MaxAmmo: 500
+  TotalAmmo: 1500
 --- !u!1 &182234
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,7 +653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96599de3f42b24f92b2e119ef59b1800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletsInClip: 500
+  BulletsInClip: 100
   SupportReload: 1
   ReloadSpeed: 2
 --- !u!1 &182244
@@ -1197,6 +1203,12 @@ MonoBehaviour:
   DestroyOnEnemyImpact: 1
   Damage: 2
   DamageAnimation: {fileID: 187270, guid: 5ffacf0cee50b496d979c1a2f91c2882, type: 3}
+  ammoBar: {fileID: 2656392713665591568, guid: 32f291c728b93994592c48d3c30585b8, type: 3}
+  reloadText: {fileID: 5334251148602428101, guid: 2855c072e55c30f45b217c8b990d3b62,
+    type: 3}
+  AmmoInGun: 100
+  MaxAmmo: 100
+  TotalAmmo: 500
 --- !u!1 &182252
 GameObject:
   m_ObjectHideFlags: 0
