@@ -46,12 +46,6 @@ MonoBehaviour:
   KeyMapping: 0
   ShootType: 1
   DelayBetweenProjectiles: 0.05
-  ammoBar: {fileID: 2656392713665591568, guid: 32f291c728b93994592c48d3c30585b8, type: 3}
-  reloadText: {fileID: 5334251148602428101, guid: 2855c072e55c30f45b217c8b990d3b62,
-    type: 3}
-  AmmoInGun: 500
-  MaxAmmo: 500
-  TotalAmmo: 1500
 --- !u!1 &182234
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,7 +647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96599de3f42b24f92b2e119ef59b1800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletsInClip: 100
+  BulletsInClip: 250
   SupportReload: 1
   ReloadSpeed: 2
 --- !u!1 &182244
@@ -828,8 +822,8 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_UsedByComposite: 1
-  m_Offset: {x: 0.08019337, y: 0}
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.11023104, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -840,7 +834,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.49961323, y: 0.2}
+  m_Size: {x: 0.55968857, y: 0.2}
   m_EdgeRadius: 0
 --- !u!114 &11482248
 MonoBehaviour:
@@ -1203,12 +1197,6 @@ MonoBehaviour:
   DestroyOnEnemyImpact: 1
   Damage: 2
   DamageAnimation: {fileID: 187270, guid: 5ffacf0cee50b496d979c1a2f91c2882, type: 3}
-  ammoBar: {fileID: 2656392713665591568, guid: 32f291c728b93994592c48d3c30585b8, type: 3}
-  reloadText: {fileID: 5334251148602428101, guid: 2855c072e55c30f45b217c8b990d3b62,
-    type: 3}
-  AmmoInGun: 100
-  MaxAmmo: 100
-  TotalAmmo: 500
 --- !u!1 &182252
 GameObject:
   m_ObjectHideFlags: 0

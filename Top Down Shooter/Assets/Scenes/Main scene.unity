@@ -181,11 +181,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6107054, guid: 89bb0861e716f4d32a6797e38f7c5515, type: 3}
       propertyPath: m_Offset.x
-      value: 0.085788906
+      value: 0.07975769
       objectReference: {fileID: 0}
     - target: {fileID: 6107054, guid: 89bb0861e716f4d32a6797e38f7c5515, type: 3}
       propertyPath: m_Size.x
-      value: 0.41157782
+      value: 0.3995154
       objectReference: {fileID: 0}
     - target: {fileID: 6107054, guid: 89bb0861e716f4d32a6797e38f7c5515, type: 3}
       propertyPath: m_AutoTiling
@@ -197,11 +197,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6107054, guid: 89bb0861e716f4d32a6797e38f7c5515, type: 3}
       propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107054, guid: 89bb0861e716f4d32a6797e38f7c5515, type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11407056, guid: 89bb0861e716f4d32a6797e38f7c5515, type: 3}
       propertyPath: MoveSpeed
-      value: 2.5
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11424028, guid: 89bb0861e716f4d32a6797e38f7c5515, type: 3}
