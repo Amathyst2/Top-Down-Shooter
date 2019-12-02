@@ -91,7 +91,7 @@ namespace TDGP
             if (FireSounds == null || FireSounds.Length == 0)
             {
                 Debug.Log("No shoot sound found, audio on weapon shooting is disabled for this weapon");
-                audioEnabled = false;
+                audioEnabled = true;
             }
 
             audioSource = GetComponent<AudioSource>();

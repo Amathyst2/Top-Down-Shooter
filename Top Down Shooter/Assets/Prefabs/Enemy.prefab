@@ -246,6 +246,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxHealth: 10
+  drops: 0
+  theDrop: {fileID: 3137180079569105090, guid: 4a7f175c27d619e4a8fbe571ffd4d259, type: 3}
   OnHitSounds:
   - {fileID: 8300000, guid: 9ddb004ec81564935a35c44ce3dff686, type: 3}
   - {fileID: 8300000, guid: 89bab7279608e47b28129a5e7a7bf93c, type: 3}

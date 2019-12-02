@@ -15,6 +15,9 @@ namespace TDGP
         /// </summary>
         public float MaxHealth = 10f;
 
+        public bool drops;
+        public GameObject theDrop;
+
         /// <summary>
         /// Sound pool of possible sounds to play when hit.
         /// </summary>
@@ -113,6 +116,9 @@ namespace TDGP
                 Instantiate(OnDeadAnimation, transform.position, Quaternion.identity);
             }
 
+            if (drops) Instantiate(theDrop, transform.position, transform.rotation);
+
+
             ScoreScript.scoreValue += 150;
 
             Instantiate(OnDeadSprites[Random.Range(0, OnDeadSprites.Length)], transform.position, Quaternion.identity);
@@ -121,6 +127,7 @@ namespace TDGP
 
             Destroy(gameObject);
 
+           
         }
     }
 }

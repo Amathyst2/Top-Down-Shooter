@@ -47,6 +47,8 @@ MonoBehaviour:
   BulletsInClip: 15
   SupportReload: 1
   ReloadSpeed: 0.2
+  ammoDisplay: {fileID: 6717496438828994395, guid: d06a27c2970f82042867e8b393dd99e5,
+    type: 3}
 --- !u!1 &163208
 GameObject:
   m_ObjectHideFlags: 0

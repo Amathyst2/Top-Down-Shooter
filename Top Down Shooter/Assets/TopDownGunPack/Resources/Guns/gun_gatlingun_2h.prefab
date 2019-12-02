@@ -647,7 +647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96599de3f42b24f92b2e119ef59b1800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletsInClip: 250
+  BulletsInClip: 400000
   SupportReload: 1
   ReloadSpeed: 2
 --- !u!1 &182244

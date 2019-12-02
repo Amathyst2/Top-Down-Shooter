@@ -13,7 +13,7 @@ public class HealthBarScript : MonoBehaviour
     void Start()
     {
         healthBar = GetComponent<Image>();
-        health = startingHealth;
+        health = currentHealth;
     }
 
     

@@ -18,6 +18,7 @@ TagManager:
   - Spawner
   - GunFlash
   - TagExample
+  - HUDbullets
   layers:
   - Default
   - TransparentFX

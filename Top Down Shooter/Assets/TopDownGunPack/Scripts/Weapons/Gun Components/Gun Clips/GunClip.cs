@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -28,6 +29,7 @@ namespace TDGP
 		private bool reloading = false;
 		private int currentBulletsInClip;
 		private GameObject projectile;
+        public Text ammoDisplay;
 
 		/// <summary>
 		/// The pooled objects currently available.
@@ -46,7 +48,7 @@ namespace TDGP
 			}
 		
 			var poolAmount = (BulletsInClip > INITIAL_POOL_MAX) ? INITIAL_POOL_MAX : BulletsInClip;
-		
+            
 			if (!projectile) {
 				Debug.LogError ("Gun clip requires child bullet object with tag 'GunProjectile'");
 			} else {
