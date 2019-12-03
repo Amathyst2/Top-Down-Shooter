@@ -27,12 +27,7 @@ public class PlayerHealthManager : MonoBehaviour
         currentHealth -= damageAmount;
         HealthBarScript.health -= 1f;
     }
-    public void addHealth(int health)
-    {
-        currentHealth+=health;
-        if (currentHealth > startingHealth) currentHealth = startingHealth;
-
-    }
+    
 
 
 }

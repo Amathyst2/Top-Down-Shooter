@@ -173,7 +173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxTimeAlive: 2
   DestroyOnEnemyImpact: 1
-  Damage: 5
+  Damage: 2
   DamageAnimation: {fileID: 187270, guid: 5ffacf0cee50b496d979c1a2f91c2882, type: 3}
 --- !u!1 &151416
 GameObject:
@@ -706,6 +706,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96599de3f42b24f92b2e119ef59b1800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletsInClip: 500
+  BulletsInClip: 1500
   SupportReload: 1
   ReloadSpeed: 2

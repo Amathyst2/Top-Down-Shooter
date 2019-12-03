@@ -149,7 +149,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.035
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -331,7 +331,7 @@ MonoBehaviour:
   IceCaseAnimation: {fileID: 162508, guid: a2f8802130e02404bb04a6879395960b, type: 3}
   LightningAnimation: {fileID: 178680, guid: 59037654720584e1ba9345d39ef64956, type: 3}
   ChainLightningRange: 3
-  MaxChainLightningEnemiesHit: 100
+  MaxChainLightningEnemiesHit: 10
 --- !u!1 &5853357161548565138
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,7 +390,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.57999444, y: 0}
+  m_Offset: {x: -0.19487992, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -401,5 +401,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.58571935, y: 1}
+  m_Size: {x: 1.3559484, y: 1}
   m_EdgeRadius: 0

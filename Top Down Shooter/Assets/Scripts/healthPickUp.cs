@@ -9,12 +9,5 @@ public class healthPickUp : MonoBehaviour
 
 
 
-    void OnTriggerEnter2d(Collider2D other)
-    {
-        if (other.tag == "Player")
-        {
-           other.gameObject.GetComponent<PlayerHealthManager>().addHealth(healthAmount);
-           Destroy(gameObject);
-        }
-    }
+  
 }
