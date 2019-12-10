@@ -23,7 +23,7 @@ namespace TDGP
         /// <summary>
         /// Pool of possible sounds to play on fire.
         /// </summary>
-        public AudioClip[] FireSounds;
+        public AudioClip[] fire;
 
         /// <summary>
         /// If more than one muzzle flash found then random flash will be activated on fire..
@@ -88,7 +88,7 @@ namespace TDGP
                 }
             }
 
-            if (FireSounds == null || FireSounds.Length == 0)
+            if (fire == null || fire.Length == 0)
             {
                 Debug.Log("No shoot sound found, audio on weapon shooting is disabled for this weapon");
                 audioEnabled = true;
@@ -174,7 +174,7 @@ namespace TDGP
 
             bullet.GetComponent<Rigidbody2D>().AddForce(bullet.transform.up * LaunchSpeed);
 
-            PlayShootSound();
+            
 
             ApplyKnockBackForce(-bullet.transform.up);
 
@@ -190,13 +190,7 @@ namespace TDGP
             }
         }
 
-        private void PlayShootSound()
-        {
-            if (audioEnabled)
-            {
-                audioSource.PlayOneShot(FireSounds[Random.Range(0, FireSounds.Length)], VolumeScale);
-            }
-        }
+       
 
         private void ApplyKnockBackForce(Vector2 dir)
         {

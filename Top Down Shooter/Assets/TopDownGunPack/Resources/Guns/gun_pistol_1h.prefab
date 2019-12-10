@@ -461,8 +461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LaunchSpeed: 600
   VolumeScale: 0.2
-  FireSounds:
-  - {fileID: 8300000, guid: 75c4f8016e5fc4dcfb4f25c44d028620, type: 3}
+  fire: []
 --- !u!1 &163216
 GameObject:
   m_ObjectHideFlags: 0
