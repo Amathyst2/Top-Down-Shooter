@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealthManager : MonoBehaviour
 {
@@ -18,7 +19,9 @@ public class PlayerHealthManager : MonoBehaviour
     {
         if (currentHealth <= 0)
         {
+            SceneManager.LoadScene(2);
             GameObject.FindGameObjectWithTag("Player").SetActive(false);
+            
         }
 
     }
